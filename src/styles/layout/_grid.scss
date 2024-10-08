@@ -1,0 +1,35 @@
+.main__grid {
+    display: grid;
+    grid-template: "sidebar main" auto / 1fr 5fr;
+}
+
+.dashboard__sidebar {
+    grid-area: sidebar;
+    display: grid;
+    grid-template:
+        "icon"
+        "logo"
+        "menu"
+        "profile";
+    grid-template-rows: auto auto 1fr auto;
+    .sidebar__icon {
+        grid-area: icon;
+    }
+    .sidebar__logo {
+        grid-area: logo;
+    }
+    .sidebar__menu {
+        grid-area: menu;
+        .menu__list {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 5rem;
+        }
+    }
+    .sidebar__profile {
+        grid-area: profile;
+    }
+}
+.dashboard__main {
+    grid-area: main;
+}

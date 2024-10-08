@@ -3,15 +3,22 @@ $primary-color: #002f5a;
 $secondary-color: #0067c6;
 $tertiary-color: #00498c;
 $category-color: #a0aec0;
+$selectbox-color: #e2e8f0;
 $white-color: #fff;
 
 // border-radius
-$border-radius: 12px;
-$border-inner-radius: 8px;
+$border-radius: 30px;
+$border-inner-radius: 21px;
 
 // font
 $title-font: 1.5rem;
-$lage-font: 1.25rem;
+$large-font: 1.25rem;
 $main-font: 1rem;
 $sub-font: 0.875rem;
 $small-font: 0.75rem;
+
+// font weight
+$bold-font: 700;
+$semi-bold-font: 600;
+$normal-font: 400;
+$light-font: 300;
