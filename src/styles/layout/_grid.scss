@@ -1,6 +1,6 @@
 .main__grid {
     display: grid;
-    grid-template: "sidebar main" auto / 1fr 5fr;
+    grid-template: "sidebar main" auto / auto 5fr;
 }
 
 .dashboard__sidebar {

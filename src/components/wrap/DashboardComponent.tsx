@@ -47,7 +47,7 @@ export default function DashboardComponent() {
                     <div className="profile__avatar">
                         <FaUser />
                     </div>
-                    <div className="profile__info">
+                    <div id="profileInfo" className="profile__info">
                         <p className="profile__name">에이비씨디에프</p>
                         <p className="profile__id">abcdefg</p>
                     </div>
@@ -137,6 +137,32 @@ export default function DashboardComponent() {
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div className="profile__menu">
+                        <button
+                            type="button"
+                            id="profileAuthBtn"
+                            className="menu__auth option__btn"
+                        >
+                            <i></i>
+                            계정 전환
+                        </button>
+                        <button
+                            type="button"
+                            id="profileHomeBtn"
+                            className="menu__home option__btn"
+                        >
+                            <i></i>
+                            메인 화면
+                        </button>
+                        <button
+                            type="button"
+                            id="profileLogoutBtn"
+                            className="menu__logout option__btn"
+                        >
+                            <i></i>
+                            로그아웃
+                        </button>
                     </div>
                 </div>
             </div>
